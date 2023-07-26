@@ -11,6 +11,7 @@ metadata:
     capv.infrastucture.cluster.x-k8s.io/aggregate-to-manager: "true"
     cluster.x-k8s.io/aggregate-to-manager: "true"
     cluster.x-k8s.io/provider: infrastructure-vsphere
+    foo: bar
     helm.sh/chart: '{{ .Chart.Name }}'
     kubeadm.controlplane.cluster.x-k8s.io/aggregate-to-manager: "true"
   name: capv-manager-role
